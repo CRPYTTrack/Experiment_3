@@ -164,6 +164,22 @@ npm run dev
 
 The application should now be running at **http://localhost:5173**.
 
+### 5. Run Minimal Test Cases
+
+From the project root, run:
+
+```bash
+cd Client
+npm install
+npm test -- --runInBand
+```
+
+Optional watch mode:
+
+```bash
+npm run test:watch
+```
+
 ## Attributions
 
 - Cryptocurrency data provided by [CoinGecko API](https://www.coingecko.com/en/api).
